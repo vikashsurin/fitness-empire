@@ -3,7 +3,7 @@ body {
   position: relative;
   margin: 0px;
   padding: 0px;
-  background-image: url("./assets/bg_texture_red.jpg");
+  background-image: url("./assets/bg/bg_texture_red.jpg");
   background-repeat: repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -68,7 +68,7 @@ body {
   padding: 5px 20px;
   border: 1px solid rgb(240, 176, 38);
   border-radius: 5px 0px 0px 5px;
-  background-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar a {
@@ -129,7 +129,7 @@ body {
 /* ======================= trainers =========================== */
 
 .trainers-container {
-  background-image: url("./assets/carbon_fibre.png");
+  background-image: url("./assets/bg/carbon_fibre.png");
   background-repeat: repeat;
   background-size: auto;
   padding: 2rem 0rem;
@@ -189,7 +189,7 @@ body {
   grid-template-columns: 1fr 1fr 2fr;
   justify-items: center;
   padding: 2em;
-  background-image: url("./assets/carbon_fibre.png");
+  background-image: url("./assets/icons/carbon_fibre.png");
   background-repeat: repeat;
   background-size: auto;
 }
